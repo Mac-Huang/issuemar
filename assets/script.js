@@ -100,52 +100,72 @@ const adventuresData = [
 const memoriesData = [
     {
         id: 'memory-001',
-        title: 'Sunday Morning Pancakes 🥞',
+        title: 'Gaming Together 🎮',
         date: '2024-07-28',
         category: 'everyday',
-        description: 'You made heart-shaped pancakes and my heart melted',
+        description: 'Me playing Apex Legends while you play Hearthstone - perfect parallel gaming date',
         mood: 'cozy',
-        location: 'Our Kitchen',
+        location: 'Our Gaming Setup',
         favorite: true
     },
     {
         id: 'memory-002',
-        title: 'Caught in the Rain ☔',
+        title: 'Food Adventure 🍜',
         date: '2024-07-15',
         category: 'adventure',
-        description: 'We got soaked but couldn\'t stop laughing',
+        description: 'Trying 5 different restaurants in one day because you love food so much!',
         mood: 'playful',
-        location: 'Downtown Park',
+        location: 'Around the City',
         favorite: true
     },
     {
         id: 'memory-003',
         title: 'First "I Love You" 💕',
-        date: '2024-06-10',
+        date: '2019-08-01',
         category: 'milestone',
-        description: 'The moment that changed everything',
+        description: 'The moment that changed everything - just before we became official',
         mood: 'emotional',
-        location: 'Sunset Beach',
+        location: 'High School Campus',
         favorite: true
     },
     {
         id: 'memory-004',
-        title: 'Movie Night Marathon 🎬',
+        title: 'Coding Study Session 💻',
         date: '2024-07-20',
         category: 'everyday',
-        description: 'Harry Potter marathon with homemade butterbeer',
-        mood: 'cozy',
-        location: 'Living Room',
+        description: 'Working on our CS projects together - you on PhD research, me on undergrad assignments',
+        mood: 'productive',
+        location: 'Library/Video Call',
         favorite: false
     },
     {
         id: 'memory-005',
-        title: 'Surprise Birthday Party 🎂',
+        title: 'Werewolf Game Night 🐺',
         date: '2024-05-15',
         category: 'celebration',
-        description: 'You planned the perfect surprise with all our friends',
+        description: 'You taught me your favorite card game and completely destroyed me at it',
         mood: 'joyful',
-        location: 'Community Center',
+        location: 'Online Game Room',
+        favorite: true
+    },
+    {
+        id: 'memory-006',
+        title: 'Her Epic Sleep Marathon 😴',
+        date: '2024-06-30',
+        category: 'everyday',
+        description: 'You slept for 14 hours straight like a pig and I just watched you being adorable',
+        mood: 'amusing',
+        location: 'Her Dorm Room',
+        favorite: true
+    },
+    {
+        id: 'memory-007',
+        title: 'Football Explanation Attempt 🏈',
+        date: '2024-09-15',
+        category: 'everyday',
+        description: 'Trying to explain American football rules to you while you pretended to understand',
+        mood: 'funny',
+        location: 'Video Call During Game',
         favorite: true
     }
 ];
