@@ -4,109 +4,95 @@
 const timelineData = [
     {
         id: 'first-meeting',
-        date: 'January 15, 2023',
+        date: 'September 3, 2018',
         title: 'First Meeting ✨',
-        description: 'The day our eyes first met and everything changed. It was a perfect day when we first saw each other...',
+        description: 'The first day of High School - the day our eyes first met and everything changed. Little did we know this was the beginning of our beautiful love story...',
         category: 'beginning'
     },
     {
         id: 'first-date',
-        date: 'January 28, 2023',
+        date: 'July 26, 2019',
         title: 'First Date 🍽️',
-        description: 'Our first official date - dinner and endless conversation. We talked for hours and time just flew by...',
+        description: 'Our first official date after almost a year of friendship. We talked for hours and realized what we had was truly special...',
         category: 'dating'
     },
     {
         id: 'first-kiss',
-        date: 'February 14, 2023',
+        date: 'August 5, 2019',
         title: 'First Kiss 💋',
-        description: 'Valentine\'s Day made perfect with our first kiss. Under the stars, everything felt magical...',
+        description: 'On the taxi, a perfect unexpected moment that sealed our feelings. Everything felt magical and right...',
         category: 'dating'
     },
     {
         id: 'relationship-official',
-        date: 'March 10, 2023',
+        date: 'August 7, 2019',
         title: 'Official Couple 💑',
-        description: 'The day we made it official - boyfriend and girlfriend. We knew we wanted to be together forever...',
+        description: 'Valentine\'s Day - the day we made it official. We knew we wanted to be together forever...',
         category: 'milestone'
     },
     {
-        id: 'first-trip',
-        date: 'May 20, 2023',
-        title: 'First Trip Together 🧳',
-        description: 'Our first adventure - exploring new places together. Discovering the world was better with you by my side...',
-        category: 'travel'
-    },
-    {
-        id: 'meeting-families',
-        date: 'July 4, 2023',
-        title: 'Meeting the Families 👨‍👩‍👧‍👦',
-        description: 'The day our families became one big happy family. Everyone loved you just as much as I do...',
+        id: 'meeting-her-family',
+        date: 'October 1, 2024',
+        title: 'Meeting Her Family 👨‍👩‍👧‍👦',
+        description: 'The day I met her wonderful family. They welcomed me with open arms and I knew I was truly part of something special...',
         category: 'milestone'
     },
     {
-        id: 'moving-in',
-        date: 'September 1, 2023',
-        title: 'Moving In Together 🏡',
-        description: 'Creating our first home together. Our little apartment became our sanctuary...',
-        category: 'milestone'
-    },
-    {
-        id: 'engagement',
-        date: 'December 25, 2023',
-        title: 'Engagement 💍',
-        description: 'Christmas proposal - the best gift ever. When you said yes, my heart exploded with joy...',
-        category: 'milestone'
+        id: 'future-adventures',
+        date: 'Coming Soon',
+        title: 'Future Adventures 🌟',
+        description: 'Our first trip together, moving in, engagement, and so many more beautiful moments are waiting for us...',
+        category: 'future'
     }
 ];
 
 const adventuresData = [
     {
-        id: 'paris-2023',
+        id: 'dream-paris',
         destination: 'Paris, France 🇫🇷',
-        date: 'April 2023',
-        duration: '5 days',
+        date: 'Future Plan',
+        duration: '7 days',
         type: 'romantic',
-        description: 'Our romantic getaway to the City of Love',
-        story: 'Paris was everything we dreamed of and more. Walking through the cobblestone streets, sharing croissants at sidewalk cafes, and watching the Eiffel Tower sparkle at night - it was pure magic.',
-        favoriteMonent: 'Dancing under the stars by the Seine',
-        budget: '$2,500',
-        rating: 5
+        description: 'Our dream romantic getaway to the City of Love',
+        story: 'We dream of walking through the cobblestone streets of Paris, sharing croissants at sidewalk cafes, and watching the Eiffel Tower sparkle at night. This will be our first international adventure together!',
+        favoriteMonent: 'Future: Dancing under the stars by the Seine',
+        budget: 'Planning',
+        rating: '⭐ Dream Trip'
     },
     {
-        id: 'tokyo-2023',
+        id: 'dream-tokyo',
         destination: 'Tokyo, Japan 🇯🇵',
-        date: 'June 2023',
-        duration: '7 days',
+        date: 'Future Plan',
+        duration: '10 days',
         type: 'adventure',
         description: 'Cultural immersion and amazing food adventures',
-        story: 'Tokyo blew our minds! From the bustling streets of Shibuya to the peaceful temples, every moment was an adventure. The food was incredible and we fell in love with the culture.',
-        favoriteMonent: 'Sunrise at Mount Fuji together',
-        budget: '$3,200',
-        rating: 5
+        story: 'We can\'t wait to explore the bustling streets of Shibuya, visit peaceful temples, and experience incredible Japanese culture together. The food, the traditions, the beauty - everything awaits us!',
+        favoriteMonent: 'Future: Sunrise at Mount Fuji together',
+        budget: 'Saving up',
+        rating: '⭐ Dream Trip'
     },
     {
-        id: 'bali-2023',
+        id: 'dream-bali',
         destination: 'Bali, Indonesia 🇮🇩',
-        date: 'August 2023',
-        duration: '10 days',
+        date: 'Future Plan',
+        duration: '8 days',
         type: 'relaxation',
         description: 'Tropical paradise and spiritual retreat',
-        story: 'Bali was our slice of paradise. From the emerald rice terraces to the golden beaches, every day felt like a dream. We found peace, adventure, and deeper love.',
-        favoriteMonent: 'Watching sunrise from Mount Batur',
-        budget: '$2,000',
-        rating: 5
+        story: 'We dream of our slice of paradise - emerald rice terraces, golden beaches, and peaceful moments together. This will be our perfect relaxation getaway where we can just be together.',
+        favoriteMonent: 'Future: Watching sunrise from Mount Batur',
+        budget: 'Planning',
+        rating: '⭐ Dream Trip'
     },
     {
-        id: 'iceland-2023',
-        destination: 'Reykjavik, Iceland 🇮🇸',
-        date: 'October 2023',
-        duration: '6 days',
-        type: 'adventure',
-        description: 'Northern lights and natural wonders',
-        story: 'Iceland was otherworldly! From chasing the Northern Lights to soaking in geothermal springs, every moment felt magical. The raw beauty brought us closer to nature and each other.',
-        favoriteMonent: 'Northern Lights dancing above us',
-        budget: '$2,800',
+        id: 'local-adventures',
+        destination: 'Local Dates 🏙️',
+        date: 'Ongoing',
+        duration: 'Every weekend',
+        type: 'romantic',
+        description: 'Our beautiful local adventures and dates',
+        story: 'While we plan our big adventures, we treasure every local date - from cozy cafes to scenic walks, movie nights to trying new restaurants. Every moment together is an adventure.',
+        favoriteMonent: 'Every moment with you',
+        budget: 'Priceless',
         rating: 5
     }
 ];
@@ -272,12 +258,13 @@ function updateActiveNavigation() {
 }
 
 function updateLoveStats() {
-    // Calculate days together (update with your actual start date)
-    const startDate = new Date('2023-01-01'); // Replace with your actual start date
+    // Calculate days together from the day we became official couple
+    const startDate = new Date('2019-08-07'); // August 7, 2019 - Official Couple date
     const today = new Date();
     const daysTogether = Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
     
-    // Animate counter
+    // Use the actual days you provided: 2184 days from first meeting
+    // But let's show days as official couple for the main stat
     animateCounter('days-together', daysTogether);
 }
 
@@ -536,19 +523,26 @@ function showRandomLoveMessage() {
 
 // Relationship stats
 function updateRelationshipStats() {
-    const startDate = new Date('2023-01-01'); // Update with your actual start date
+    // From first meeting (High School)
+    const firstMeeting = new Date('2018-09-03'); // September 3, 2018
+    // From official couple date  
+    const officialDate = new Date('2019-08-07'); // August 7, 2019
     const today = new Date();
-    const daysTogether = Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
-    const monthsTogether = Math.floor(daysTogether / 30);
-    const yearsTogether = Math.floor(daysTogether / 365);
+    
+    // Days since first meeting (2184 days as you mentioned)
+    const daysSinceFirstMeeting = Math.floor((today - firstMeeting) / (1000 * 60 * 60 * 24));
+    // Days as official couple
+    const daysAsCouple = Math.floor((today - officialDate) / (1000 * 60 * 60 * 24));
+    const monthsAsCouple = Math.floor(daysAsCouple / 30);
+    const yearsAsCouple = Math.floor(daysAsCouple / 365);
     
     // Animate counters when section is visible
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                animateCounter('relationship-days', daysTogether);
-                animateCounter('relationship-months', monthsTogether);
-                animateCounter('relationship-years', yearsTogether > 0 ? yearsTogether : 1);
+                animateCounter('relationship-days', daysSinceFirstMeeting); // Show days since first meeting
+                animateCounter('relationship-months', monthsAsCouple);
+                animateCounter('relationship-years', yearsAsCouple);
                 observer.unobserve(entry.target);
             }
         });
